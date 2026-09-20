@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Iniciando validacoes..."
+      - test -f site/index.html
+      - test -f site/style.css
+      - grep -q 'data-app="aws-devops-demo"' site/index.html
+      - echo "Validacoes concluidas com sucesso."
+
+artifacts:
+  base-directory: site
+  files:
+    - '**/*'
