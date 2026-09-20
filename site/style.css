@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #101820;
+    color: #ffffff;
+}
+
+.container {
+    width: min(800px, 90%);
+}
+
+.label {
+    margin-bottom: 12px;
+
+    color: #ff9900;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h1 {
+    margin: 0 0 18px;
+
+    font-size: 3.2rem;
+    line-height: 1.1;
+}
+
+.description {
+    max-width: 620px;
+
+    margin-bottom: 28px;
+
+    color: #d5d9d9;
+
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.version {
+    display: inline-block;
+
+    padding: 9px 15px;
+
+    border: 1px solid #ff9900;
+    border-radius: 6px;
+
+    color: #ff9900;
+
+    font-weight: bold;
+}
+
+
+/* Elementos usados na versão 2.0 */
+
+.pipeline-status {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+.pipeline-card {
+    flex: 1;
+    min-width: 180px;
+
+    padding: 20px;
+
+    border: 1px solid #39424e;
+    border-radius: 8px;
+
+    background: #18212b;
+}
+
+.pipeline-card h2 {
+    margin: 0 0 10px;
+
+    color: #ff9900;
+
+    font-size: 1rem;
+}
+
+.pipeline-card p {
+    margin: 0;
+
+    color: #d5d9d9;
+}
+
+.success {
+    color: #7ee787;
+    font-weight: bold;
+}
