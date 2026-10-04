@@ -1,29 +1,159 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<main>
+    <div class="container">
 
-    <title>DevOps na AWS</title>
+        <!-- Identificação da aplicação -->
+        <div class="label">
+            CI/CD PIPELINE
+        </div>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body data-app>
-
-    <main class="container">
-        <p class="label">DEVOPS • AWS</p>
-
-        <h1>Pipeline automatizado de deploy</h1>
+        <h1>
+            Pipeline de Deploy
+        </h1>
 
         <p class="description">
-            Demonstração prática de CI/CD utilizando serviços da AWS.
+            Acompanhe o processo de integração, validação e
+            publicação da aplicação. Todas as etapas do pipeline
+            foram executadas com sucesso.
         </p>
 
-        <div class="version">
-            Versão 1.0
-        </div>
-    </main>
 
-</body>
-</html>
+        <!-- Versão atual -->
+        <div class="version">
+            Versão 2.0
+        </div>
+
+
+        <!-- Status do pipeline -->
+        <div class="pipeline-status">
+
+            <!-- SOURCE -->
+            <div class="pipeline-card">
+                <h2>SOURCE</h2>
+
+                <p class="success">
+                    ✓ Código recebido
+                </p>
+
+                <p>
+                    Repositório conectado e código
+                    disponibilizado para o processo
+                    de build.
+                </p>
+            </div>
+
+
+            <!-- BUILD -->
+            <div class="pipeline-card">
+                <h2>BUILD</h2>
+
+                <p class="success">
+                    ✓ Validações concluídas
+                </p>
+
+                <p>
+                    Código validado, dependências
+                    instaladas e testes executados
+                    com sucesso.
+                </p>
+            </div>
+
+
+            <!-- DEPLOY -->
+            <div class="pipeline-card">
+                <h2>DEPLOY</h2>
+
+                <p class="success">
+                    ✓ Publicado na AWS
+                </p>
+
+                <p>
+                    A aplicação foi publicada no
+                    ambiente de produção da AWS
+                    sem erros.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Informações adicionais -->
+        <div class="pipeline-status">
+
+            <div class="pipeline-card">
+                <h2>STATUS</h2>
+
+                <p class="success">
+                    ✓ Pipeline concluído
+                </p>
+
+                <p>
+                    Todas as etapas foram executadas
+                    corretamente.
+                </p>
+            </div>
+
+
+            <div class="pipeline-card">
+                <h2>AMBIENTE</h2>
+
+                <p class="success">
+                    ✓ Produção
+                </p>
+
+                <p>
+                    Aplicação disponível no ambiente
+                    de produção.
+                </p>
+            </div>
+
+
+            <div class="pipeline-card">
+                <h2>VERSÃO</h2>
+
+                <p class="success">
+                    ✓ 2.0
+                </p>
+
+                <p>
+                    Versão atual publicada após a
+                    conclusão do pipeline.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- Histórico de versões -->
+        <div class="pipeline-status">
+
+            <div class="pipeline-card">
+                <h2>VERSÃO 2.0</h2>
+
+                <p class="success">
+                    ✓ Atual
+                </p>
+
+                <p>
+                    Versão atualmente publicada
+                    no ambiente de produção.
+                </p>
+            </div>
+
+
+            <div class="pipeline-card">
+                <h2>VERSÃO 1.0</h2>
+
+                <p>
+                    Versão anterior
+                </p>
+
+                <p>
+                    Primeira versão disponibilizada
+                    da aplicação.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</main>
